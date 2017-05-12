@@ -1,5 +1,5 @@
 {
-    "name": "wikimedia/composer-merge-plugin",
+    "name": "daslani/composer-merge-plugin",
     "description": "Composer plugin to merge multiple composer.json files",
     "type": "composer-plugin",
     "license": "MIT",
@@ -7,6 +7,10 @@
         {
             "name": "Bryan Davis",
             "email": "bd808@wikimedia.org"
+        },
+        {
+            "name": "David Aslani",
+            "email": "david@captiv8innovations.com"
         }
     ],
     "minimum-stability": "dev",
@@ -18,7 +22,7 @@
     "require-dev": {
         "composer/composer": "~1.0.0",
         "jakub-onderka/php-parallel-lint": "~0.8",
-        "phpunit/phpunit": "~4.8|~5.0",
+        "phpunit/phpunit": "^6.1",
         "squizlabs/php_codesniffer": "~2.1.0"
     },
     "autoload": {
