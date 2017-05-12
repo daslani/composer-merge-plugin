@@ -85,7 +85,7 @@ class MergePlugin implements PluginInterface, EventSubscriberInterface
     /**
      * Offical package name
      */
-    const PACKAGE_NAME = 'wikimedia/composer-merge-plugin';
+    const PACKAGE_NAME = 'daslani/composer-merge-plugin';
 
     /**
      * Name of the composer 1.1 init event.
